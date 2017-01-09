@@ -1,11 +1,7 @@
-title: "Actor Model in Erlang"
-date: 
-tags:
-- Erlang
-- Actor Model
-- Concurrency
-- Distributed Computing
+Actor Model in Erlang
 ---
+
+Slides for this presentation can be found here: <http://slides.com/ralucas/concurrency-and-the-actor-model-in-erlang>
 
 ### Concurrency
 _Definition:_ The ability of an executing program to run decomposed instructions in a parallelized fashion efficiently utilizing available resources.
@@ -101,17 +97,17 @@ Additionally, processes do and can be flagged with priorities: 'max', 'high', 'n
 The scheduler makes Erlang a great choice for low-latency, parallelized programs as it can manage multi-tasking efficiently, given that it doesn't allow any one process to monopolize resources.
 
 ### References and Further Reading
-[1] Agha, Gul, _Actors: A Model of Concurrent Computation in Distributed Systems_, http://www.cypherpunks.to/erights/history/actors/AITR-844.pdf, 1985.
-[2] Vermeersch, Ruben, _Concurrency in Erlang & Scala: The Actor Model_ https://rocketeer.be/articles/concurrency-in-erlang-scala, 2009.
-[3] Hebert, Fred, The Hitchhiker's Guide to Concurrency, _Learn You Some Erlang: for great good!_, http://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency, 2013.
-[4] Erlang/OTP System Documentation, http://erlang.org/doc/index.html, 2016
-[5] http://erlang.org/doc/reference_manual/processes.html
-[6] http://erlang.org/doc/efficiency_guide/advanced.html
-[7] Armstrong, Joe. _Programming Erlang: Software for a Concurrent World_, 2nd Ed, 2013.
-[8] Tate, Bruce. _Crossing borders: Concurrent programming with Erlang_, http://www.ibm.com/developerworks/java/library/j-cb04186/j-cb04186-pdf.pdf, 2006.
-[9] https://hamidreza-s.github.io/erlang/scheduling/real-time/preemptive/migration/2016/02/09/erlang-scheduler-details.html
-[10] http://joearms.github.io/2013/04/05/concurrent-and-parallel-programming.html
-[11] http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html
-[12]  Andersen, Jesper Louis> _How Erlang does scheduling_, http://jlouisramblings.blogspot.co.uk/2013/01/how-erlang-does-scheduling.html, 2013.
-[13] https://www.youtube.com/watch?v=7erJ1DV_Tlo&feature=youtu.be
+[1] Agha, Gul, _Actors: A Model of Concurrent Computation in Distributed Systems_, http://www.cypherpunks.to/erights/history/actors/AITR-844.pdf, 1985.  
+[2] Vermeersch, Ruben, _Concurrency in Erlang & Scala: The Actor Model_ https://rocketeer.be/articles/concurrency-in-erlang-scala, 2009.  
+[3] Hebert, Fred, The Hitchhiker's Guide to Concurrency, _Learn You Some Erlang: for great good!_, http://learnyousomeerlang.com/the-hitchhikers-guide-to-concurrency, 2013.  
+[4] Erlang/OTP System Documentation, http://erlang.org/doc/index.html, 2016.  
+[5] http://erlang.org/doc/reference_manual/processes.html.  
+[6] http://erlang.org/doc/efficiency_guide/advanced.html.  
+[7] Armstrong, Joe. _Programming Erlang: Software for a Concurrent World_, 2nd Ed, 2013.  
+[8] Tate, Bruce. _Crossing borders: Concurrent programming with Erlang_, http://www.ibm.com/developerworks/java/library/j-cb04186/j-cb04186-pdf.pdf, 2006.  
+[9] https://hamidreza-s.github.io/erlang/scheduling/real-time/preemptive/migration/2016/02/09/erlang-scheduler-details.html.  
+[10] http://joearms.github.io/2013/04/05/concurrent-and-parallel-programming.html.  
+[11] http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html.  
+[12]  Andersen, Jesper Louis> _How Erlang does scheduling_, http://jlouisramblings.blogspot.co.uk/2013/01/how-erlang-does-scheduling.html, 2013.  
+[13] https://www.youtube.com/watch?v=7erJ1DV_Tlo&feature=youtu.be.   
 
