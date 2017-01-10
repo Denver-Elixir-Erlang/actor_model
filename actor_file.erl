@@ -46,8 +46,8 @@ print_results() ->
 
 process_line(Line, Pid) ->
   Result = is_prime(Line),
-  Pid ! {result, {Line, Result}}.
-  %io:format("Result for ~w : ~w~n", [Line, Result]).
+  Pid ! {result, {Line, Result}},
+  io:format("Result for ~w : ~w~n", [Line, Result]).
 
 is_prime(N) ->
   SqRt = list_to_integer(float_to_list(math:sqrt(N), [{decimals, 0}])),
